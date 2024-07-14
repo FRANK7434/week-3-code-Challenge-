@@ -1,0 +1,113 @@
+ /* Global Styles */
+ body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.heading {
+    background-color: #7e7772; /* Semantic UI orange */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.heading .item {
+    display: inline-block;
+}
+
+.heading h2.ui.header {
+    margin: 0;
+}
+
+.heading .content {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.heading #subtitle {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+/* Centered Grid */
+.ui.centered.grid {
+    margin-top: 2rem;
+}
+
+/* Side Menu */
+.list-container {
+    padding: 1rem;
+}
+
+.ui.divided.list {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.ui.divided.list .film.item {
+    cursor: pointer;
+    padding: 0.5rem 0;
+}
+
+.ui.divided.list .film.item:hover {
+    background-color: #f8f8f8;
+}
+
+/* Poster */
+.ui.grid .four.wide.column img#poster {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Showing Info */
+.ui.cards .card {
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ui.cards .card #title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.ui.cards .card .meta {
+    color: #777;
+    margin-bottom: 1rem;
+}
+
+.ui.cards .card .description {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.ui.cards .card .ui.label {
+    margin-right: 0.5rem;
+}
+
+.ui.cards .card .extra.content {
+    margin-top: 1rem;
+}
+
+.ui.cards .card button#buy-ticket {
+    font-size: 1rem;
+}
+
+.ui.cards .card button#buy-ticket:hover {
+    background-color: #f2711c;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Responsive adjustments */
+    .ui.grid .four.wide.column {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}

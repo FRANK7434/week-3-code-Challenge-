@@ -1,0 +1,19 @@
+{
+  "name": "week-3-code-challenge-",
+  "version": "1.0.0",
+  "description": "Flatdango app that allow a user to purchase movies tickets from the theater",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FRANK7434/week-3-code-Challenge-.git"
+  },
+  "author": "sonfransisco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FRANK7434/week-3-code-Challenge-/issues"
+  },
+  "homepage": "https://github.com/FRANK7434/week-3-code-Challenge-#readme"
+}
