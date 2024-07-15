@@ -16,7 +16,7 @@
 
 # Procedures used 
 
-- Clone the repository:
+- Clone the repository:git@github.com:FRANK7434/week-3-code-Challenge-.git
 
 - Navigate to the project directory:/Development/Code/week-3-code-Challenge-
 
