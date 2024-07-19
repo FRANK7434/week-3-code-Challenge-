@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const filmsUrl = 'http://localhost:3004/films';
+    const filmsUrl = 'http://localhost:3000/films';
     const filmsList = document.getElementById('films');
     const poster = document.getElementById('poster');
     const title = document.getElementById('title');
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentFilm = null;
 
     // Fetch all films
-    fetch('http://localhost:3004/films')
+    fetch('http://localhost:3000/films')
         .then(response => response.json())
         .then(films => {
             // Display the list of all films
